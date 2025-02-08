@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	float:left;
+	font-family:sans-serif;
+	font-size:100px;
+	padding:0;
+	margin:0;
+	color:white;
+	-moz-animation:stp 3s infinite;
+	-o-animation:stp 3s infinite;
+	-webkit-animation:stp 3s infinite;
+	animation:stp 3s infinite;
+	
+}
+@-webkit-keyframes stp{
+	100%{color:aqua;}
+}
+@-moz-keyframes stp{
+	100%{color:aqua;}
+}
+@-o-keyframes stp{
+	100%{color:aqua;}
+}
+@keyframes stp{
+	100%{color:aqua;}
+}
+.a{
+	
+	animation-delay:0.5s;
+	
+}
+.b{
+	
+	animation-delay:1s; 
+	
+}

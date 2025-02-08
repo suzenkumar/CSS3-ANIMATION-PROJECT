@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+    width:100px;
+    height:100px;
+	background-color:aquamarine;
+	position:relative;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	animation:stp 5s infinite;
+	
+}
+@keyframe stp{
+	0%(top:0;left:0;)
+	100&{top:0;left:500px;}
+}

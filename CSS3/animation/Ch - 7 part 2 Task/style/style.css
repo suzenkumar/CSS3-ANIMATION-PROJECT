@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+
+
+
+div{
+	width:720px;
+	height:480px;
+	border:20px solid red;
+	margin:50px auto;
+	background:url("../images/a.jpg");
+	background-size:cover;
+	
+	
+	
+}
+div:hover{
+	-moz-animation:stp 12s infinite;
+	-o-animation:stp 12s infinite;
+	-webkit-animation:stp 12s infinite;
+	animation:stp 12s infinite;
+}
+@-moz-keyframes stp{
+	0%{background:url(../images/a.jpg); background-size:cover;}
+	25%{background:url(../images/b.jpg);background-size:cover;}
+	50%{background:url(../images/c.jpg);background-size:cover;}
+	75%{background:url(../images/d.jpg);background-size:cover;}
+	100%{background:url(../images/e.jpg);background-size:cover;}
+	
+	
+}
+@-o-keyframes stp{
+	0%{background:url(../images/a.jpg); background-size:cover;}
+	25%{background:url(../images/b.jpg);background-size:cover;}
+	50%{background:url(../images/c.jpg);background-size:cover;}
+	75%{background:url(../images/d.jpg);background-size:cover;}
+	100%{background:url(../images/e.jpg);background-size:cover;}
+	
+	
+}
+@-webkit-keyframes stp{
+	0%{background:url(../images/a.jpg); background-size:cover;}
+	25%{background:url(../images/b.jpg);background-size:cover;}
+	50%{background:url(../images/c.jpg);background-size:cover;}
+	75%{background:url(../images/d.jpg);background-size:cover;}
+	100%{background:url(../images/e.jpg);background-size:cover;}
+	
+	
+}
+@keyframes stp{
+	0%{background:url(../images/a.jpg); background-size:cover;}
+	25%{background:url(../images/b.jpg);background-size:cover;}
+	50%{background:url(../images/c.jpg);background-size:cover;}
+	75%{background:url(../images/d.jpg);background-size:cover;}
+	100%{background:url(../images/e.jpg);background-size:cover;}
+	
+	
+}

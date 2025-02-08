@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.page{
+    width:720px;
+    height:480px;
+    border:20px groove black;
+    margin:50px auto;
+    background:url(../images/e.jpg);
+    background-size:cover;
+}
+
+.page:hover{
+    -webkit-animation:stp 4s infinite;
+    -o-animation:stp 20s infinite;
+    -moz-animation:stp 20s infinite;
+    animation:stp 20s infinite;
+    
+}
+
+
+@-webkit-keyframes stp{
+
+    0%{background-position: top 5000px left;}
+
+}
+
+@-o-keyframes stp{
+
+    0%{background-position: top 5000px left;}
+
+}
+
+@-moz-keyframes stp{
+
+    0%{background-position: top 5000px left;}
+
+}
+
+@keyframes stp{
+
+    0%{background-position: top 5000px left;}
+
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.progress{
+	width:600px;
+	height:30px;
+	background-color:#efefef;
+	margin:200px auto;
+	border-radius:20px;
+	
+}
+.progress-bar{
+	width:0%;
+	height:30px;
+	background-color:blue;
+	border-radius:20px;
+	animation:load 5s infinite;
+	
+}
+@keyframe load{
+	0%{width:0%;}
+	100%{width:100%;}
+}
